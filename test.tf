@@ -257,4 +257,3 @@ resource "aws_iam_role_policy_attachment" "ssm_role_policy_attachment" {
   role       = aws_iam_role.ssm_role.name
   policy_arn = aws_iam_policy.ssm_policy.arn
 }
-
